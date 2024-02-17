@@ -33,9 +33,6 @@ namespace WebSalesMvc
                 
             }
             
-
-            s
-
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

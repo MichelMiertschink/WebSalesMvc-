@@ -11202,11 +11202,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\WebSalesMvc.csproj",
+      "projectUniqueName": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\WebSalesMvc\\WebSalesMvc.csproj",
       "projectName": "WebSalesMvc",
-      "projectPath": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\WebSalesMvc.csproj",
+      "projectPath": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\WebSalesMvc\\WebSalesMvc.csproj",
       "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-      "outputPath": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\obj\\",
+      "outputPath": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\WebSalesMvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",

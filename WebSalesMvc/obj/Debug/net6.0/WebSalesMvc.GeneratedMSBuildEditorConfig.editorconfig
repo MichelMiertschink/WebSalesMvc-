@@ -9,99 +9,83 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebSalesMvc
 build_property.RootNamespace = WebSalesMvc
-build_property.ProjectDir = D:\Estudos\Csharp\Curso Udemy\repo\WebSalesMvc\WebSalesMvc\
+build_property.ProjectDir = D:\Estudos\Csharp\Curso Udemy\repo\WebSalesMvc\WebSalesMvc\WebSalesMvc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\Estudos\Csharp\Curso Udemy\repo\WebSalesMvc\WebSalesMvc
+build_property.MSBuildProjectDirectory = D:\Estudos\Csharp\Curso Udemy\repo\WebSalesMvc\WebSalesMvc\WebSalesMvc
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Departments/Create.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/Departments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Departments/Delete.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/Departments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Departments/Details.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/Departments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Departments/Edit.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/Departments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Departments/Index.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/Departments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Home/Index.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Home/Privacy.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/SalesRecords/Create.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/SalesRecords/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/SalesRecords/Delete.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/SalesRecords/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/SalesRecords/Details.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/SalesRecords/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/SalesRecords/Edit.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/SalesRecords/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/SalesRecords/Index.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/SalesRecords/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Sellers/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Sellers/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Sellers/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Sellers/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Sellers/Index.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/Sellers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Shared/Error.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/_ViewImports.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/_ViewStart.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Shared/_Layout.cshtml]
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/WebSalesMvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hpzdw1adzx

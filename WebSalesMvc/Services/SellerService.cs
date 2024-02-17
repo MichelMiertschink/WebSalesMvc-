@@ -11,5 +11,11 @@ namespace WebSalesMvc.Services
             _context = context;
         }
 
+        // Operação Sincrona 
+        public List<Seller> FindAll()
+        {
+            return _context.Seller.ToList();
+        }
+
     }
 }

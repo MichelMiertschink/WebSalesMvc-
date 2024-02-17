@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J5Wm1D2XmrG+8Qav9se+Zk7wx0x4nfLYq4OUR5LWJ0GcyIY9V7gcqDcws1vrAmpPv7dg5k5bAUQSC1qdj6d60A==",
+  "dgSpecHash": "eV8XT1wikgcJ24tgPad0P/IOa31U7KLUdm5WZM8sTnfX7RkBN2YeEaADNm1y9BGasR+l9f82jRQFrq8keAQn+Q==",
   "success": true,
-  "projectFilePath": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\WebSalesMvc.csproj",
+  "projectFilePath": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\WebSalesMvc\\WebSalesMvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\miche\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\miche\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
