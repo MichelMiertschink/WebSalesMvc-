@@ -11,5 +11,9 @@ namespace WebSalesMvc.Services
             _context = context;
         }
 
+        public List<Seller> FindAll()
+        {
+            return _context.Seller.ToList();
+        }
     }
 }

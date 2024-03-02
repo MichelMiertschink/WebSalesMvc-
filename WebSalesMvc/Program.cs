@@ -18,7 +18,7 @@ namespace WebSalesMvc
             // Add services to the container.
             builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
             
-            // Adicionado o Serviços customizados
+            // Adicionado o Serviço customizados - Curso
             builder.Services.AddScoped<SellerService>();
 
 
@@ -32,9 +32,6 @@ namespace WebSalesMvc
                 app.UseHsts();
                 
             }
-            
-
-            s
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
