@@ -5,13 +5,24 @@ namespace WebSalesMvc.Models
     public class Seller
     {
         public int Id { get; set; }
-        [Display (Name = "Nome")]
+
+        [Display(Name = "Name")]
+        [Required(ErrorMessage = "{0} Required")]
+        [StringLength(60, MinimumLength = 6, ErrorMessage = "{0} size should between {2} and {1}")]
         public string Name { get; set; }
+
         [DataType(DataType.EmailAddress)]
+        [Required(ErrorMessage = "{0} Required")]
+        [EmailAddress(ErrorMessage = "Enter a valid e-mail")]
         public string Email { get; set; }
+
         [Display(Name = "Birth Date")]
         [DataType(DataType.Date)]
+        [Required(ErrorMessage = "{0} Required")]
         public DateTime BirthDate { get; set; }
+
+        [Required(ErrorMessage = "{0} Required")]
+        [Range(100.0, 10000.0, ErrorMessage = "{0} must be from {1} to {2}")]
         [Display(Name = "Base Salary")]
         [DisplayFormat(DataFormatString = "{0:F2}")]
         public double BaseSalary { get; set; }
@@ -34,17 +45,17 @@ namespace WebSalesMvc.Models
             Department = department;
         }
 
-        public void AddSeller (SalesRecord sr)
+        public void AddSeller(SalesRecord sr)
         {
             Sales.Add(sr);
         }
 
-        public void RemoveSeller (SalesRecord sr)
+        public void RemoveSeller(SalesRecord sr)
         {
             Sales.Remove(sr);
         }
 
-        public double TotalSales (DateTime initial, DateTime final)
+        public double TotalSales(DateTime initial, DateTime final)
         {
             return Sales.Where(sr => sr.Date >= initial && sr.Date <= final).Sum(sr => sr.Ammount);
         }
