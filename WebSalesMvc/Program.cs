@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 using WebSalesMvc.Data;
 using WebSalesMvc.Services;
+using Microsoft.AspNetCore.Localization;
 namespace WebSalesMvc
 {
     public class Program
@@ -21,6 +23,14 @@ namespace WebSalesMvc
             // Adicionado o Serviço customizados - Curso
             builder.Services.AddScoped<SellerService>();
             builder.Services.AddScoped<DepartmentService>();
+
+            var enUS = new CultureInfo("en-US");
+            var localizationOptions = new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture(enUS),
+                SupportedCultures = new List<CultureInfo> { enUS },
+                SupportedUICultures = new List<CultureInfo> { enUS }
+            };
 
 
             var app = builder.Build();
