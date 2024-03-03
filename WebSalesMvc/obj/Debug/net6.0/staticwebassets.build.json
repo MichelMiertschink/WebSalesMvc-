@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wz484RKpZIpsBRqAS76v2VyYjfrYz3rYXCX5Nu4GbW4=",
+  "Hash": "aDC49nmqNXDzwrU8tpPO+ePJWtj7ABK46gAU++v13nk=",
   "Source": "WebSalesMvc",
   "BasePath": "_content/WebSalesMvc",
   "Mode": "Default",
@@ -188,6 +188,25 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+      "Identity": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.flatly.css",
+      "SourceId": "WebSalesMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\",
+      "BasePath": "_content/WebSalesMvc",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.flatly.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.flatly.css"
+    },
+    {
       "Identity": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-litera.css",
       "SourceId": "WebSalesMvc",
       "SourceType": "Discovered",
@@ -300,6 +319,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css",
+      "SourceId": "WebSalesMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\",
+      "BasePath": "_content/WebSalesMvc",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-flatly.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css"
     },
     {
       "Identity": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -775,6 +813,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-yeti.css",
+      "SourceId": "WebSalesMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\",
+      "BasePath": "_content/WebSalesMvc",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-yeti.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-yeti.css"
     },
     {
       "Identity": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",

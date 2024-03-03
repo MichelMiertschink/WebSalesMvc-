@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
+      "Id": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css"
+    },
+    {
       "Id": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
@@ -121,6 +125,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+      "Id": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-yeti.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-yeti.css"
+    },
+    {
       "Id": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
@@ -143,6 +151,10 @@
     {
       "Id": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.flatly.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.flatly.css"
     },
     {
       "Id": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
