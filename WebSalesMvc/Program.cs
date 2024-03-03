@@ -20,6 +20,7 @@ namespace WebSalesMvc
             
             // Adicionado o Serviço customizados - Curso
             builder.Services.AddScoped<SellerService>();
+            builder.Services.AddScoped<DepartmentService>();
 
 
             var app = builder.Build();
