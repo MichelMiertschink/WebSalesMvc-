@@ -7,16 +7,20 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WebSalesMvc.Data;
 using WebSalesMvc.Models;
+using WebSalesMvc.Models.Enums;
+using WebSalesMvc.Models.ViewModel;
+using WebSalesMvc.Services;
 
 namespace WebSalesMvc.Controllers
 {
     public class SalesRecordsController : Controller
     {
         private readonly WebSalesMvcContext _context;
-
-        public SalesRecordsController(WebSalesMvcContext context)
+        private readonly SellerService _sellerService;
+        public SalesRecordsController(WebSalesMvcContext context, SellerService sellerService )
         {
             _context = context;
+            _sellerService = sellerService;
         }
 
         // GET: SalesRecords
@@ -24,7 +28,7 @@ namespace WebSalesMvc.Controllers
         {
               return _context.SalesRecord != null ? 
                           View(await _context.SalesRecord.ToListAsync()) :
-                          Problem("Entity set 'WebSalesMvcContext.SalesRecord'  is null.");
+                          Problem("Entity set 'WebSalesMvcContext.SalesRecord' is null.");
         }
 
         // GET: SalesRecords/Details/5
@@ -46,9 +50,11 @@ namespace WebSalesMvc.Controllers
         }
 
         // GET: SalesRecords/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            return View();
+            var sellers = await _sellerService.FindAllAsync();
+            var viewModel = new SaleRecordsFormViewModel { Sellers = sellers };
+            return View(viewModel);
         }
 
         // POST: SalesRecords/Create
@@ -56,7 +62,7 @@ namespace WebSalesMvc.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Date,Ammount,Status")] SalesRecord salesRecord)
+        public async Task<IActionResult> Create(SalesRecord salesRecord)
         {
             if (ModelState.IsValid)
             {

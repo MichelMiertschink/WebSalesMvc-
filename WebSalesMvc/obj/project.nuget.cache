@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J5Wm1D2XmrG+8Qav9se+Zk7wx0x4nfLYq4OUR5LWJ0GcyIY9V7gcqDcws1vrAmpPv7dg5k5bAUQSC1qdj6d60A==",
+  "dgSpecHash": "REZP1oMd6K3xaO/wWJT/Sjp2ZpRCvZCSBXbNBYQuHtiJh97g5Ib90zyeocGKhYAHxbzxsN2b3dpwlp1Bg3zvhw==",
   "success": true,
   "projectFilePath": "D:\\Estudos\\Csharp\\Curso Udemy\\repo\\WebSalesMvc\\WebSalesMvc\\WebSalesMvc.csproj",
   "expectedPackageFiles": [
@@ -231,10 +231,10 @@
     "C:\\Users\\miche\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\miche\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\miche\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\miche\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\miche\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\miche\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\miche\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+    "C:\\Users\\miche\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\miche\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\miche\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\miche\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
   ],
   "logs": []
 }
