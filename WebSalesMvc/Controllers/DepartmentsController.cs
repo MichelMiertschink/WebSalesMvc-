@@ -126,8 +126,7 @@ namespace WebSalesMvc.Controllers
                 return NotFound();
             }
 
-            var department = await _context.Department
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var department = await _context.Department.FirstOrDefaultAsync(m => m.Id == id);
             if (department == null)
             {
                 return NotFound();
@@ -143,10 +142,11 @@ namespace WebSalesMvc.Controllers
         {
             if (_context.Department == null)
             {
-                return Problem("Entity set 'WebSalesMvcContext.Department'  is null.");
+                return Problem("Entity set 'WebSalesMvcContext.Department' is null.");
             }
             var department = await _context.Department.FindAsync(id);
-            if (department != null)
+            var seller = await _context.Seller.FirstOrDefaultAsync(s => s.Department.Id == id);
+            if (department != null && seller == null)
             {
                 _context.Department.Remove(department);
             }
