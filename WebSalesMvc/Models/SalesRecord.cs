@@ -17,7 +17,8 @@ namespace WebSalesMvc.Models
         [Display(Name = "Ammount")]
         [DisplayFormat(DataFormatString = "{0:F2}")]
         public double Ammount { get; set; }
-        public SaleStatus Status { get; set; }
+        public SaleStatus SaleStatus { get; set; }
+        //public int SaleStatusId {  get; set; }
         public Seller Seller { get; set; }
         public int SellerId { get; set; }
         
@@ -26,12 +27,12 @@ namespace WebSalesMvc.Models
         {
         }
 
-        public SalesRecord(int id, DateTime date, double ammount, SaleStatus status, Seller seller)
+        public SalesRecord(int id, DateTime date, double ammount, SaleStatus saleStatus, Seller seller)
         {
             Id = id;
             Date = date;
             Ammount = ammount;
-            Status = status;
+            SaleStatus = saleStatus;
             Seller = seller;
         }
     }

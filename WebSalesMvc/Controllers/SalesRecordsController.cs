@@ -16,6 +16,7 @@ namespace WebSalesMvc.Controllers
     public class SalesRecordsController : Controller
     {
         private readonly WebSalesMvcContext _context;
+        private readonly SalesRecordsService _salesRecordService;
         private readonly SellerService _sellerService;
         public SalesRecordsController(WebSalesMvcContext context, SellerService sellerService )
         {
@@ -53,7 +54,7 @@ namespace WebSalesMvc.Controllers
         public async Task<IActionResult> Create()
         {
             var sellers = await _sellerService.FindAllAsync();
-            var viewModel = new SaleRecordsFormViewModel { Sellers = sellers };
+            var viewModel = new SalesRecordsFormViewModel { Sellers = sellers };
             return View(viewModel);
         }
 
@@ -64,13 +65,14 @@ namespace WebSalesMvc.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(SalesRecord salesRecord)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                _context.Add(salesRecord);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                var sellers = await _sellerService.FindAllAsync();
+                var viewModel = new SalesRecordsFormViewModel { Sellers = sellers };
+                return View(viewModel);
             }
-            return View(salesRecord);
+            await _salesRecordService.InsertAsync(salesRecord);
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: SalesRecords/Edit/5

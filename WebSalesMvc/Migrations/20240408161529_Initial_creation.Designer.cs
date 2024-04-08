@@ -11,8 +11,8 @@ using WebSalesMvc.Data;
 namespace WebSalesMvc.Migrations
 {
     [DbContext(typeof(WebSalesMvcContext))]
-    [Migration("20240216012848_OtherEntities")]
-    partial class OtherEntities
+    [Migration("20240408161529_Initial_creation")]
+    partial class Initial_creation
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -48,10 +48,10 @@ namespace WebSalesMvc.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("SellerId")
+                    b.Property<int>("SaleStatus")
                         .HasColumnType("int");
 
-                    b.Property<int>("Status")
+                    b.Property<int>("SellerId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -70,8 +70,8 @@ namespace WebSalesMvc.Migrations
                     b.Property<double>("BaseSalary")
                         .HasColumnType("double");
 
-                    b.Property<DateOnly>("BirthDate")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("BirthDate")
+                        .HasColumnType("datetime(6)");
 
                     b.Property<int>("DepartmentId")
                         .HasColumnType("int");
@@ -82,7 +82,8 @@ namespace WebSalesMvc.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(60)
+                        .HasColumnType("varchar(60)");
 
                     b.HasKey("Id");
 

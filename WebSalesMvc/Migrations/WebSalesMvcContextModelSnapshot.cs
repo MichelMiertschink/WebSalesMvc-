@@ -46,10 +46,10 @@ namespace WebSalesMvc.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("SellerId")
+                    b.Property<int>("SaleStatus")
                         .HasColumnType("int");
 
-                    b.Property<int>("Status")
+                    b.Property<int>("SellerId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -80,7 +80,8 @@ namespace WebSalesMvc.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(60)
+                        .HasColumnType("varchar(60)");
 
                     b.HasKey("Id");
 
