@@ -5,6 +5,7 @@ namespace WebSalesMvc.Models
 {
     public class SalesRecord
     {
+        [Key]
         public int Id { get; set; }
         
         [Display(Name = "Date")]

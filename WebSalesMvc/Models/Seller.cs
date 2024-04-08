@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebSalesMvc.Models
 {
     public class Seller
     {
+        [Key]
         public int Id { get; set; }
 
         [Display(Name = "Name")]
@@ -30,6 +32,7 @@ namespace WebSalesMvc.Models
 
         // Validação está exigindo o campo já preenchido
         [ValidateNever]
+        [ForeignKey]
         public Department Department { get; set; }
         public int DepartmentId { get; set; }
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
