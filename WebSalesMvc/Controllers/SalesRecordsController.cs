@@ -19,10 +19,12 @@ namespace WebSalesMvc.Controllers
         private readonly WebSalesMvcContext _context;
         private readonly SalesRecordsService _salesRecordService;
         private readonly SellerService _sellerService;
-        public SalesRecordsController(WebSalesMvcContext context, SellerService sellerService )
+        public SalesRecordsController(WebSalesMvcContext context, SellerService sellerService, SalesRecordsService salesRecords)
         {
             _context = context;
             _sellerService = sellerService;
+            _salesRecordService = salesRecords;
+            
         }
 
         // GET: SalesRecords

@@ -2,6 +2,8 @@
 
 @{
     ViewData["Title"] = "Simple Search";
+    DateTime minDate = DateTime.Parse(ViewData["minDate"] as string);
+    DateTime maxDate = DateTime.Parse(ViewData["maxDate"] as string);
 }
 
 <h2>@ViewData["Title"]</h2>
@@ -63,10 +65,10 @@
                             @Html.DisplayFor(modelItem => item.Date)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Seller)
+                            @Html.DisplayFor(modelItem => item.Seller.Name)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Seller.Department)
+                            @Html.DisplayFor(modelItem => item.Seller.Department.Name)
                         </td>
                         <td>
                             @Html.DisplayFor(modelItem => item.Ammount)
