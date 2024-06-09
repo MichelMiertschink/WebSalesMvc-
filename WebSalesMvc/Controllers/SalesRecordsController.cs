@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using WebSalesMvc.Data;
 using WebSalesMvc.Models;
 using WebSalesMvc.Models.Enums;
@@ -30,6 +31,38 @@ namespace WebSalesMvc.Controllers
               return _context.SalesRecord != null ? 
                           View(await _context.SalesRecord.ToListAsync()) :
                           Problem("Entity set 'WebSalesMvcContext.SalesRecord' is null.");
+        }
+
+        public async Task<IActionResult> SimpleSearch(DateTime? minDate, DateTime? maxDate)
+        {
+            if (!minDate.HasValue)
+            {
+                minDate = new DateTime(DateTime.Now.Year, 1, 1);
+            }
+            if (!maxDate.HasValue)
+            {
+                maxDate = DateTime.Now;
+            }
+            ViewData["minDate"] = minDate.Value.ToString("dd-MM-yyyy");
+            ViewData["maxDate"] = minDate.Value.ToString("dd-MM-yyyy");
+            var result = await _salesRecordService.FindByDateAsync(minDate, maxDate);
+            return View(result);
+        }
+
+        public async Task<IActionResult> GroupingSearch(DateTime? minDate, DateTime? maxDate)
+        {
+            if (!minDate.HasValue)
+            {
+                minDate = new DateTime(DateTime.Now.Year, 1, 1);
+            }
+            if (!maxDate.HasValue)
+            {
+                maxDate = DateTime.Now;
+            }
+            ViewData["minDate"] = minDate.Value.ToString("dd-MM-yyyy");
+            ViewData["maxDate"] = minDate.Value.ToString("dd-MM-yyyy");
+            var result = await _salesRecordService.FindByDateGroupingAsync(minDate, maxDate);
+            return View(result);
         }
 
         // GET: SalesRecords/Details/5
@@ -167,5 +200,6 @@ namespace WebSalesMvc.Controllers
         {
           return (_context.SalesRecord?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+               
     }
 }

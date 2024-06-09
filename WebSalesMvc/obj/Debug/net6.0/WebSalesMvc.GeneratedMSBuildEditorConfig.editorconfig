@@ -62,8 +62,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/SalesRecords/GroupingSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXEdyb3VwaW5nU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/SalesRecords/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/SalesRecords/SimpleSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXFNpbXBsZVNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Estudos/Csharp/Curso Udemy/repo/WebSalesMvc/WebSalesMvc/Views/Sellers/Create.cshtml]
